@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Portofolio Saya</h1>
+        <nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776;
+            </div>
+            
+                <li><a href="index.html">Tentang</a></li>
+                <li><a href="about.html">Portofolio</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Selamat datang di portofolio saya! Saya adalah seorang [profesi Anda] dengan pengalaman dalam [keahlian Anda]. Saya mencintai apa yang saya lakukan dan selalu berusaha untuk memberikan yang terbaik.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Proyek Saya</h2>
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="project1.jpg" alt="Proyek 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="project2.jpg" alt="Proyek 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="project3.jpg" alt="Proyek 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="project4.jpg" alt="Proyek 4">
+                </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak Saya</h2>
+        <p>Email: <a href="mailto:email@domain.com">email@domain.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Portofolio Saya. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
